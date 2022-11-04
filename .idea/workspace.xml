@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97aecc44-ea06-43f3-a915-ddec928f62bf" name="Default Changelist" comment="" />
+    <list default="true" id="97aecc44-ea06-43f3-a915-ddec928f62bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/PersonComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_heap/BinaryHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_heap/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +22,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2EjcVN6tUNonj8aEmUO7n201d8V" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -38,22 +52,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.windowMax">
+  <component name="RunManager" selected="Application.Person">
     <configuration name="ClassifyArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC.ClassifyArray" />
-      <module name="algo_Oscar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._00_CCC.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CurvePrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC.CurvePrint" />
       <module name="algo_Oscar" />
       <extension name="coverage">
         <pattern>
@@ -91,6 +92,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC.Person" />
+      <module name="algo_Oscar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._00_CCC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="windowMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC.windowMax" />
       <module name="algo_Oscar" />
@@ -106,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Person" />
         <item itemvalue="Application.windowMax" />
         <item itemvalue="Application.IsValid" />
         <item itemvalue="Application.ClassifyArray" />
         <item itemvalue="Application.MergeSortedArr" />
-        <item itemvalue="Application.CurvePrint" />
       </list>
     </recent_temporary>
   </component>
@@ -135,12 +149,24 @@
       <workItem from="1665691227892" duration="6987000" />
       <workItem from="1666303588008" duration="7229000" />
       <workItem from="1666389715703" duration="7458000" />
-      <workItem from="1666907636083" duration="5576000" />
+      <workItem from="1666907636083" duration="7338000" />
+      <workItem from="1667514732999" duration="6173000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
