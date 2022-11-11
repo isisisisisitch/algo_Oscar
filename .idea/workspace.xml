@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97aecc44-ea06-43f3-a915-ddec928f62bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_heap/printer/BinaryTreeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_heap/printer/BinaryTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_heap/printer/InorderPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_heap/printer/LevelOrderPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_heap/printer/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_heap/printer/Strings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_09_heap/BinaryHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_heap/BinaryHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_09_heap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_heap/Main.java" afterDir="false" />
@@ -30,11 +36,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ca/bytetube/_09_heap" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ca.bytetube._08_dp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/bytetube/_09_heap" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -148,7 +158,8 @@
       <workItem from="1666389715703" duration="7458000" />
       <workItem from="1666907636083" duration="7338000" />
       <workItem from="1667514732999" duration="6198000" />
-      <workItem from="1667601109297" duration="7568000" />
+      <workItem from="1667601109297" duration="8133000" />
+      <workItem from="1668122120402" duration="8825000" />
     </task>
     <task id="LOCAL-00001" summary="add comparator and comparable">
       <created>1667529709665</created>
@@ -157,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667529709665</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added heap add">
+      <created>1667609108727</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667609108727</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +196,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add comparator and comparable" />
-    <option name="LAST_COMMIT_MESSAGE" value="add comparator and comparable" />
+    <MESSAGE value="added heap add" />
+    <option name="LAST_COMMIT_MESSAGE" value="added heap add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -199,9 +218,9 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ca/bytetube/_09_heap/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="16" />
+          <url>file://$PROJECT_DIR$/src/ca/bytetube/_09_heap/BinaryHeap.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

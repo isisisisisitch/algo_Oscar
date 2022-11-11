@@ -1,7 +1,9 @@
 package ca.bytetube._09_heap;
 
+import ca.bytetube._09_heap.printer.BinaryTreeInfo;
+
 //max heap
-public class BinaryHeap {
+public class BinaryHeap implements BinaryTreeInfo {
 
     private Integer[] elements;
     private int size;//nums of elements
@@ -105,15 +107,99 @@ public class BinaryHeap {
 
     // delete the top element of the heap
     Integer remove() {
-        return 0;
+
+        int lastIndex = --size;
+        Integer root = elements[0];
+        elements[0] = elements[lastIndex];
+        elements[lastIndex] = null;
+        siftDown(0);
+
+
+        return root;
+    }
+
+    private void siftDown(int index) {
+        Integer element = elements[index];
+        int half = size>>1;
+
+        while (index < half) {
+            //2 conditions
+            //1.element--->left
+            //2.element--->left and right
+            int childIndex = (index << 1)+ 1;
+            Integer child = elements[childIndex];
+            int rightIndex = childIndex + 1;
+
+            //get max from left,right
+            if (rightIndex < size && (elements[rightIndex] > child)) {
+                child = elements[childIndex = rightIndex];
+            }
+
+            if (element >= child) break;
+            elements[index] = child;
+            index = childIndex;
+
+//            int leftChildIndex = 2 * index + 1;
+//            Integer leftChild = elements[leftChildIndex];
+//            int rightChildIndex =leftChildIndex + 1;
+//            Integer rightChild = elements[rightChildIndex];
+//
+//            //If node ≤ parent node
+//            if (rightChildIndex < size) {
+//                int largest = leftChild;
+//                int largestIndex = leftChildIndex;
+//                if (rightChild > largest) {
+//                    largest = rightChild;
+//                    largestIndex = rightChildIndex;
+//                }
+//                if (element >= largest) break;
+//
+//                elements[index] = largest;
+//                index = largestIndex;
+//
+//            } else if (rightChildIndex == size) {
+//                if (element < leftChild) {
+//                    elements[index] = leftChild;
+//                    index = leftChildIndex;
+//                } else break;
+//            } else break
+        }
+        elements[index] = element;
     }
 
 
 // insert a new element while deleting the top element of the heap
 
     Integer replace(Integer element) {
-        return 0;
+        Integer root = elements[0];
+        elements[0] = element;
+        siftDown(0);
+
+        return root;
     }
 
 
+    @Override
+    public Object root() {
+        return 0;
+    }
+
+    @Override
+    public Object left(Object node) {
+        int index = ((int) node << 1) + 1;
+
+        return index >= size ? null : index;
+    }
+
+    @Override
+    public Object right(Object node) {
+        int index = ((int) node << 1) + 2;
+
+        return index >= size ? null : index;
+    }
+
+    @Override
+    public Object string(Object node) {
+        return elements[(int) node];
+    }
 }
