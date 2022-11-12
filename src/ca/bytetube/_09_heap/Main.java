@@ -4,10 +4,10 @@ import ca.bytetube._09_heap.printer.BinaryTrees;
 
 public class Main {
     public static void main(String[] args) {
-
-        BinaryHeap heap = new BinaryHeap();
-        Integer[] arr = {72, 68, 50, 43, 38, 47, 21, 14, 80};
-        topK(arr, 4);
+        testHeapify();
+//        BinaryHeap heap = new BinaryHeap();
+//        Integer[] arr = {72, 68, 50, 43, 38, 47, 21, 14, 80};
+//        topK(arr, 4);
 //        for (int i = 0; i <arr.length ; i++) {
 //            heap.add(arr[i]);
 //        }
@@ -18,6 +18,18 @@ public class Main {
 //        BinaryTrees.println(heap);
 //        heap.replace(11);
 //        BinaryTrees.println(heap);
+    }
+
+    public static BinaryHeap testHeapify(){
+        Integer[] arr = {72, 68, 50, 43, 38, 47, 21, 14, 80};
+        BinaryHeap heap = new BinaryHeap(arr);
+        BinaryTrees.println(heap);
+
+        return heap;
+    }
+
+    public static void getMaxFromNineData(BinaryHeap heap){
+        heap.get();
     }
 
     public static void topK(Integer[] data, int k) {

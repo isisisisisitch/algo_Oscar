@@ -4,13 +4,34 @@ import ca.bytetube._09_heap.printer.BinaryTreeInfo;
 
 //max heap
 public class BinaryHeap implements BinaryTreeInfo {
-
     private Integer[] elements;
     private int size;//nums of elements
     public static final int DEFAULT_CAPACITY = 10;
 
     public BinaryHeap() {
         elements = new Integer[DEFAULT_CAPACITY];
+    }
+
+    public BinaryHeap(Integer[] elements) {
+        size = elements.length;
+        this.elements = new Integer[size];
+        for (int i = 0; i < elements.length; i++) {
+            this.elements[i] = elements[i];
+        }
+
+        heapify();
+    }
+
+    private void heapify() {
+        //1.t-d siftup
+//        for (int i = 1; i < size; i++) {
+//            siftUp(i);
+//        }
+
+        //2. b-u sift down
+        for (int i = size - 1; i >= 0; i--) {
+            siftDown(i);
+        }
     }
 
     // the number of elements
@@ -120,13 +141,13 @@ public class BinaryHeap implements BinaryTreeInfo {
 
     private void siftDown(int index) {
         Integer element = elements[index];
-        int half = size>>1;
+        int half = size >> 1;
 
         while (index < half) {
             //2 conditions
             //1.element--->left
             //2.element--->left and right
-            int childIndex = (index << 1)+ 1;
+            int childIndex = (index << 1) + 1;
             Integer child = elements[childIndex];
             int rightIndex = childIndex + 1;
 
