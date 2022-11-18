@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97aecc44-ea06-43f3-a915-ddec928f62bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/CountNumOfDigitsAddUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/IdentityTwin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_09_heap/BinaryHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_heap/BinaryHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_09_heap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_heap/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/Q1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/Q1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,9 +54,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Q1">
-    <configuration name="IsValid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC.IsValid" />
+  <component name="RunManager" selected="Application.CountNumOfDigitsAddUp">
+    <configuration name="CountNumOfDigitsAddUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC.CountNumOfDigitsAddUp" />
+      <module name="algo_Oscar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._00_CCC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IdentityTwin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC.IdentityTwin" />
       <module name="algo_Oscar" />
       <extension name="coverage">
         <pattern>
@@ -107,26 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="windowMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC.windowMax" />
-      <module name="algo_Oscar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._00_CCC.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountNumOfDigitsAddUp" />
+        <item itemvalue="Application.IdentityTwin" />
         <item itemvalue="Application.Q1" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Person" />
-        <item itemvalue="Application.windowMax" />
-        <item itemvalue="Application.IsValid" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +155,10 @@
       <workItem from="1667514732999" duration="6198000" />
       <workItem from="1667601109297" duration="8133000" />
       <workItem from="1668122120402" duration="8863000" />
-      <workItem from="1668211282275" duration="5712000" />
+      <workItem from="1668211282275" duration="6506000" />
+      <workItem from="1668454106520" duration="114000" />
+      <workItem from="1668471790421" duration="77000" />
+      <workItem from="1668727406578" duration="7128000" />
     </task>
     <task id="LOCAL-00001" summary="add comparator and comparable">
       <created>1667529709665</created>
@@ -178,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668200233677</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added q1">
+      <created>1668218771153</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668218771153</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +211,8 @@
     <MESSAGE value="add comparator and comparable" />
     <MESSAGE value="added heap add" />
     <MESSAGE value="completed heap" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed heap" />
+    <MESSAGE value="added q1" />
+    <option name="LAST_COMMIT_MESSAGE" value="added q1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -225,6 +236,11 @@
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_09_heap/BinaryHeap.java</url>
           <line>163</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ca/bytetube/_00_CCC/CountNumOfDigitsAddUp.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
