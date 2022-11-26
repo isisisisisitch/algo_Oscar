@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97aecc44-ea06-43f3-a915-ddec928f62bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/CountNumOfDigitsAddUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/IdentityTwin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/AbstractList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/Q1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/Q1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +38,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ca.bytetube._10_list" />
       <recent name="ca.bytetube._08_dp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -54,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountNumOfDigitsAddUp">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="CountNumOfDigitsAddUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC.CountNumOfDigitsAddUp" />
       <module name="algo_Oscar" />
@@ -94,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC.Person" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._10_list.Main" />
       <module name="algo_Oscar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._00_CCC.*" />
+          <option name="PATTERN" value="ca.bytetube._10_list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.CountNumOfDigitsAddUp" />
         <item itemvalue="Application.IdentityTwin" />
         <item itemvalue="Application.Q1" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Person" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +161,9 @@
       <workItem from="1668211282275" duration="6506000" />
       <workItem from="1668454106520" duration="114000" />
       <workItem from="1668471790421" duration="77000" />
-      <workItem from="1668727406578" duration="7128000" />
+      <workItem from="1668727406578" duration="7573000" />
+      <workItem from="1669332390624" duration="7050000" />
+      <workItem from="1669417473460" duration="7420000" />
     </task>
     <task id="LOCAL-00001" summary="add comparator and comparable">
       <created>1667529709665</created>
@@ -188,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668218771153</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added q2 &amp; q3">
+      <created>1668735114495</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668735114495</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +224,8 @@
     <MESSAGE value="added heap add" />
     <MESSAGE value="completed heap" />
     <MESSAGE value="added q1" />
-    <option name="LAST_COMMIT_MESSAGE" value="added q1" />
+    <MESSAGE value="added q2 &amp; q3" />
+    <option name="LAST_COMMIT_MESSAGE" value="added q2 &amp; q3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -241,6 +254,11 @@
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_00_CCC/CountNumOfDigitsAddUp.java</url>
           <line>16</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ca/bytetube/_10_list/Main.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
