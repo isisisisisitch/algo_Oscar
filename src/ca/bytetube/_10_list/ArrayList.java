@@ -110,12 +110,6 @@ public class ArrayList extends AbstractList {
     };
 
 
-    //Contains a certain element
-    public boolean contains(Object element){
-
-        return indexOf(element) != ELEMENT_NOT_FOUND;
-    };
-
     private void extendCapacity(int numsOfElements) {
         int oldCapacity = elements.length;
         if (oldCapacity >= numsOfElements) return;

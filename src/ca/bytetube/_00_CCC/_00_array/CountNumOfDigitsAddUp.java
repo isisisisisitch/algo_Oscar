@@ -1,4 +1,4 @@
-package ca.bytetube._00_CCC;
+package ca.bytetube._00_CCC._00_array;
 //4:45~5:45pm
 //6:15~7:25pm
 public class CountNumOfDigitsAddUp {

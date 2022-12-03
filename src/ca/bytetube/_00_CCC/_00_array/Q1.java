@@ -1,4 +1,4 @@
-package ca.bytetube._00_CCC;
+package ca.bytetube._00_CCC._00_array;
 
 public class Q1 {
     public static void main(String[] args) {

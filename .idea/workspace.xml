@@ -2,12 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97aecc44-ea06-43f3-a915-ddec928f62bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/AbstractList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_01_list/DeleteNodeInLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_01_list/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_01_list/ReverseLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_00_CCC/ClassifyArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_00_CCC/CurvePrint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_00_CCC/IsValid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_00_CCC/MergeSortedArr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_00_CCC/SearchTargetInSortedMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_00_CCC/SpiralList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_00_CCC/windowMax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/ClassifyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/ClassifyArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/CountNumOfDigitsAddUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/CountNumOfDigitsAddUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/CurvePrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/CurvePrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/IdentityTwin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/IdentityTwin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/IsValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/IsValid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/MergeSortedArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/MergeSortedArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/PersonComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/PersonComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/Q1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/Q1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/SearchTargetInSortedMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/SearchTargetInSortedMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/SpiralList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/SpiralList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/getNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/getNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/windowMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_02_stack/windowMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_10_list/AbstractList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/AbstractList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_10_list/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_10_list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_10_list/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,11 +81,11 @@
   </component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="CountNumOfDigitsAddUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC.CountNumOfDigitsAddUp" />
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC._00_array.CountNumOfDigitsAddUp" />
       <module name="algo_Oscar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._00_CCC.*" />
+          <option name="PATTERN" value="ca.bytetube._00_CCC._00_array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,11 +94,24 @@
       </method>
     </configuration>
     <configuration name="IdentityTwin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC.IdentityTwin" />
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC._00_array.IdentityTwin" />
       <module name="algo_Oscar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._00_CCC.*" />
+          <option name="PATTERN" value="ca.bytetube._00_CCC._00_array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._10_list.Main" />
+      <module name="algo_Oscar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._10_list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +146,11 @@
       </method>
     </configuration>
     <configuration name="Q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC.Q1" />
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC._00_array.Q1" />
       <module name="algo_Oscar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._00_CCC.*" />
+          <option name="PATTERN" value="ca.bytetube._00_CCC._00_array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,7 +198,9 @@
       <workItem from="1668471790421" duration="77000" />
       <workItem from="1668727406578" duration="7573000" />
       <workItem from="1669332390624" duration="7050000" />
-      <workItem from="1669417473460" duration="7420000" />
+      <workItem from="1669417473460" duration="8127000" />
+      <workItem from="1669936309173" duration="4554000" />
+      <workItem from="1670023823475" duration="6565000" />
     </task>
     <task id="LOCAL-00001" summary="add comparator and comparable">
       <created>1667529709665</created>
@@ -200,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668735114495</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added arrayList and linkedList">
+      <created>1669426193695</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669426193695</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,23 +269,24 @@
     <MESSAGE value="completed heap" />
     <MESSAGE value="added q1" />
     <MESSAGE value="added q2 &amp; q3" />
-    <option name="LAST_COMMIT_MESSAGE" value="added q2 &amp; q3" />
+    <MESSAGE value="added arrayList and linkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="added arrayList and linkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ca/bytetube/_00_CCC/SpiralList.java</url>
+          <url>file://$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/SpiralList.java</url>
           <line>71</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ca/bytetube/_00_CCC/IsValid.java</url>
+          <url>file://$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/IsValid.java</url>
           <line>22</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ca/bytetube/_00_CCC/windowMax.java</url>
+          <url>file://$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_02_stack/windowMax.java</url>
           <line>10</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
@@ -251,14 +296,24 @@
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ca/bytetube/_00_CCC/CountNumOfDigitsAddUp.java</url>
+          <url>file://$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/CountNumOfDigitsAddUp.java</url>
           <line>16</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_10_list/Main.java</url>
-          <line>29</line>
+          <line>53</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ca/bytetube/_10_list/Main.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ca/bytetube/_10_list/Main.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

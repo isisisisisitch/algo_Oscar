@@ -1,4 +1,4 @@
-package ca.bytetube._00_CCC;
+package ca.bytetube._00_CCC._00_array;
 
 public class ClassifyArray {
     public static void main(String[] args) {

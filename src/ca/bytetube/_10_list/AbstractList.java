@@ -18,6 +18,9 @@ public abstract class AbstractList implements List{
         add(size,element);
     }
 
+    public boolean contains(Object element) {
+        return indexOf(element) != ELEMENT_NOT_FOUND;
+    }
 
     public abstract Object get(int index);
 
@@ -37,5 +40,6 @@ public abstract class AbstractList implements List{
     public abstract int indexOf(Object element);
 
 
-    public abstract boolean contains(Object element);
+
+
 }
