@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97aecc44-ea06-43f3-a915-ddec928f62bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_01_list/DeleteNodeInLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_01_list/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_01_list/ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_01_list/LinkedListCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_00_CCC/ClassifyArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_00_CCC/CurvePrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_00_CCC/IsValid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_00_CCC/MergeSortedArr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_00_CCC/SearchTargetInSortedMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_00_CCC/SpiralList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_00_CCC/windowMax.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/ClassifyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/ClassifyArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/CountNumOfDigitsAddUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/CountNumOfDigitsAddUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/CurvePrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/CurvePrint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/IdentityTwin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/IdentityTwin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/IsValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/IsValid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/MergeSortedArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/MergeSortedArr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/PersonComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/PersonComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/Q1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/Q1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/SearchTargetInSortedMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/SearchTargetInSortedMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/SpiralList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/SpiralList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/getNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/getNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/windowMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_02_stack/windowMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_10_list/AbstractList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/AbstractList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_10_list/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_01_list/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_01_list/ReverseLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_10_list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_10_list/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/Main.java" afterDir="false" />
     </list>
@@ -79,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.LinkedListCycle">
     <configuration name="CountNumOfDigitsAddUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC._00_array.CountNumOfDigitsAddUp" />
       <module name="algo_Oscar" />
@@ -106,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._10_list.Main" />
+    <configuration name="LinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC._01_list.LinkedListCycle" />
       <module name="algo_Oscar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._10_list.*" />
+          <option name="PATTERN" value="ca.bytetube._00_CCC._01_list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +98,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._09_heap.Main" />
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._10_list.Main" />
       <module name="algo_Oscar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._09_heap.*" />
+          <option name="PATTERN" value="ca.bytetube._10_list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListCycle" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.CountNumOfDigitsAddUp" />
         <item itemvalue="Application.IdentityTwin" />
         <item itemvalue="Application.Q1" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +178,9 @@
       <workItem from="1669332390624" duration="7050000" />
       <workItem from="1669417473460" duration="8127000" />
       <workItem from="1669936309173" duration="4554000" />
-      <workItem from="1670023823475" duration="6565000" />
+      <workItem from="1670023823475" duration="7272000" />
+      <workItem from="1670525241519" duration="2421000" />
+      <workItem from="1670541997400" duration="5483000" />
     </task>
     <task id="LOCAL-00001" summary="add comparator and comparable">
       <created>1667529709665</created>
@@ -244,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669426193695</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="completed linkedList">
+      <created>1670030931170</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670030931170</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +257,8 @@
     <MESSAGE value="added q1" />
     <MESSAGE value="added q2 &amp; q3" />
     <MESSAGE value="added arrayList and linkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="added arrayList and linkedList" />
+    <MESSAGE value="completed linkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed linkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -302,17 +290,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_10_list/Main.java</url>
-          <line>53</line>
+          <line>49</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_10_list/Main.java</url>
-          <line>37</line>
+          <line>33</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_10_list/Main.java</url>
-          <line>26</line>
+          <line>22</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>

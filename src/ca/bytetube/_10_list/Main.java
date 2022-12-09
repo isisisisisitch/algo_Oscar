@@ -1,10 +1,6 @@
 package ca.bytetube._10_list;
 
 
-import java.util.Collection;
-
-
-
 public class Main {
     public static void main(String[] args) {
 //        //int[] arr = {10,20,30,40};
@@ -17,7 +13,7 @@ public class Main {
 
 
     public static void test4(){
-        LinkedList list = new LinkedList();
+        SinglyLinkedList list = new SinglyLinkedList();
         for (int i = 0; i < 10; i++) {
             list.add(i+10);
         }
@@ -30,7 +26,7 @@ public class Main {
 
 
     public static void test3(){
-        LinkedList list = new LinkedList();
+        SinglyLinkedList list = new SinglyLinkedList();
         for (int i = 0; i < 10; i++) {
             list.add(i+10);
         }
