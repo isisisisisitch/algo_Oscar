@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97aecc44-ea06-43f3-a915-ddec928f62bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_01_list/LinkedListCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/SinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/singly/SingleCircularLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_11_backtracking/Queens.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_01_list/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_01_list/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_10_list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_10_list/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/singly/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_10_list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/_doubly/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_10_list/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_10_list/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/singly/SinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedListCycle">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CountNumOfDigitsAddUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC._00_array.CountNumOfDigitsAddUp" />
       <module name="algo_Oscar" />
@@ -102,7 +103,7 @@
       <module name="algo_Oscar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._10_list.*" />
+          <option name="PATTERN" value="ca.bytetube._10_list.singly.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,8 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.LinkedListCycle" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.CountNumOfDigitsAddUp" />
         <item itemvalue="Application.IdentityTwin" />
         <item itemvalue="Application.Q1" />
@@ -180,7 +181,10 @@
       <workItem from="1669936309173" duration="4554000" />
       <workItem from="1670023823475" duration="7272000" />
       <workItem from="1670525241519" duration="2421000" />
-      <workItem from="1670541997400" duration="5483000" />
+      <workItem from="1670541997400" duration="6286000" />
+      <workItem from="1670902524279" duration="19000" />
+      <workItem from="1671235960471" duration="3248000" />
+      <workItem from="1671757166207" duration="5938000" />
     </task>
     <task id="LOCAL-00001" summary="add comparator and comparable">
       <created>1667529709665</created>
@@ -231,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670030931170</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added list ccc questions">
+      <created>1670549625100</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670549625100</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +269,8 @@
     <MESSAGE value="added q2 &amp; q3" />
     <MESSAGE value="added arrayList and linkedList" />
     <MESSAGE value="completed linkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed linkedList" />
+    <MESSAGE value="added list ccc questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="added list ccc questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -290,18 +302,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_10_list/Main.java</url>
-          <line>49</line>
+          <line>63</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_10_list/Main.java</url>
-          <line>33</line>
+          <line>47</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_10_list/Main.java</url>
-          <line>22</line>
+          <line>37</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ca/bytetube/_10_list/Main.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

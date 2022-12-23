@@ -1,4 +1,6 @@
-package ca.bytetube._10_list;
+package ca.bytetube._10_list.singly;
+
+import ca.bytetube._10_list.AbstractList;
 
 public class SinglyLinkedList extends AbstractList {
     private Node first;

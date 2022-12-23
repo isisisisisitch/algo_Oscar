@@ -1,4 +1,6 @@
-package ca.bytetube._10_list;
+package ca.bytetube._10_list.singly;
+
+import ca.bytetube._10_list.AbstractList;
 
 import java.util.Collection;
 import java.util.Iterator;

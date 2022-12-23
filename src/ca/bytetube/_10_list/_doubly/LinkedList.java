@@ -1,6 +1,8 @@
-package ca.bytetube._10_list;
+package ca.bytetube._10_list._doubly;
 
-public class LinkedList  extends AbstractList{
+import ca.bytetube._10_list.AbstractList;
+
+public class LinkedList  extends AbstractList {
     Node first;
     Node last;
 
