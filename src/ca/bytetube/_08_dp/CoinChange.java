@@ -5,35 +5,33 @@ import java.util.Arrays;
 public class CoinChange {
     public static void main(String[] args) {
         //System.out.println(Integer.MAX_VALUE + 1);//2147483647  -2147483648
-        System.out.println(coinChange1(39));//39 = 25 + 5 + 5 +4*1
-        System.out.println(coinChange3(39,new int[] {25,20,1}));
+        //System.out.println(coinChange1(39));//39 = 25 + 5 + 5 +4*1
+        System.out.println(coinChange3(6,new int[] {5,20,25}));
 
 
     }
 
-    public static int coinChange3(int amount,int[] coins) {//n = 6
+    public static int coinChange3(int amount,int[] coins) {//n = 0
         //① Define state
         //dp(n) is the minimum number of coins needed to get n cents
         int[] dp = new int[amount + 1];
 
-        //② Set initial state
-        //int[] faces = {25, 20, 5, 1};
-        Arrays.sort(coins);//
-        for (int face : coins) {
-            if (amount < face) break;
-            dp[face] = 1;
-        }
-
         for (int i = 1; i <= amount; i++) {//n = 41(1~40)
             int min = Integer.MAX_VALUE;
+
             //③ Determine the state transition equation
-            for (int j = 0; j < coins.length; j++) {
-                if (i >= coins[j]) min = Math.min(dp[i - coins[j]], min);//2
-
+            for (int coin :coins) {
+//                if (i >= coin)
+                if (i < coin || dp[i - coin] == -1) continue;
+                min = Math.min(dp[i - coin], min);//-1
             }
-            dp[i] = min + 1;
 
-        }
+            if (min == Integer.MAX_VALUE) dp[i] = -1;
+            else dp[i] = min + 1;
+            }
+
+
+
 
         return dp[amount];
     }
@@ -123,8 +121,13 @@ public class CoinChange {
      * min1 = 2147483647
      * min2
      * )
+     * coinChange is to return the num of coin when the change is n
+     *
+     *
+     * top --- down
+     *
      */
-    public static int coinChange(int n) {//6
+    public static int coinChange(int n) {//41
         if (n < 1) return Integer.MAX_VALUE;//2147483647
         if (n == 25 || n == 20 || n == 5 || n == 1) return 1;
         //2147483647      2147483647

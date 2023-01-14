@@ -7,7 +7,7 @@ public class MaxSubArray {
     }
 
 
-    public static int maxSubArray(int[] nums) {
+    public static int maxSubArray1(int[] nums) {
         if (nums.length == 1) return nums[0];
         int dp = nums[0];
         int max = Integer.MIN_VALUE;
@@ -20,6 +20,22 @@ public class MaxSubArray {
             max = Math.max(max,dp);
         }
         return max;
+    }
+
+    //dp(i) = dp(i-1) + arr[i]
+    public static int maxSubArray(int[] arr){
+        int[] dp = new int[arr.length];
+        int max = dp[0] = arr[0];
+        for (int i = 1; i < arr.length ; i++) {
+            if (dp[i-1] <= 0) dp[i] = arr[i];
+            else dp[i] = dp[i-1] + arr[i];
+
+           max = Math.max(max,dp[i]);
+
+        }
+
+        return max;
+
     }
 
 

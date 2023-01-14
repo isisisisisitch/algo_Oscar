@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97aecc44-ea06-43f3-a915-ddec928f62bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/singly/SingleCircularLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_11_backtracking/Queens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_08_dp/Knapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_08_dp/LCS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_08_dp/LongestCommonSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_10_list/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/singly/ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_10_list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/_doubly/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_10_list/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_10_list/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_list/singly/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_08_dp/CoinChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_08_dp/CoinChange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_08_dp/MaxSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_08_dp/MaxSubArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_08_dp/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_08_dp/CoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_08_dp/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_08_dp/MaxSubArray.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,13 +60,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CountNumOfDigitsAddUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC._00_array.CountNumOfDigitsAddUp" />
+  <component name="RunManager" selected="Application.LongestCommonSubstring">
+    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._08_dp.CoinChange" />
       <module name="algo_Oscar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._00_CCC._00_array.*" />
+          <option name="PATTERN" value="ca.bytetube._08_dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IdentityTwin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC._00_array.IdentityTwin" />
+    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._08_dp.Knapsack" />
       <module name="algo_Oscar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._00_CCC._00_array.*" />
+          <option name="PATTERN" value="ca.bytetube._08_dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +87,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC._01_list.LinkedListCycle" />
+    <configuration name="LCS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._08_dp.LCS" />
       <module name="algo_Oscar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._00_CCC._01_list.*" />
+          <option name="PATTERN" value="ca.bytetube._08_dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestCommonSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._08_dp.LongestCommonSubstring" />
+      <module name="algo_Oscar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._08_dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,26 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_CCC._00_array.Q1" />
-      <module name="algo_Oscar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._00_CCC._00_array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestCommonSubstring" />
+        <item itemvalue="Application.Knapsack" />
+        <item itemvalue="Application.LCS" />
+        <item itemvalue="Application.CoinChange" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.LinkedListCycle" />
-        <item itemvalue="Application.CountNumOfDigitsAddUp" />
-        <item itemvalue="Application.IdentityTwin" />
-        <item itemvalue="Application.Q1" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +186,10 @@
       <workItem from="1670541997400" duration="6286000" />
       <workItem from="1670902524279" duration="19000" />
       <workItem from="1671235960471" duration="3248000" />
-      <workItem from="1671757166207" duration="5938000" />
+      <workItem from="1671757166207" duration="6166000" />
+      <workItem from="1672959841474" duration="8749000" />
+      <workItem from="1673556090265" duration="5056000" />
+      <workItem from="1673654469875" duration="7819000" />
     </task>
     <task id="LOCAL-00001" summary="add comparator and comparable">
       <created>1667529709665</created>
@@ -242,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670549625100</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added backtracking and list">
+      <created>1671765591112</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671765591112</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +282,8 @@
     <MESSAGE value="added arrayList and linkedList" />
     <MESSAGE value="completed linkedList" />
     <MESSAGE value="added list ccc questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="added list ccc questions" />
+    <MESSAGE value="added backtracking and list" />
+    <option name="LAST_COMMIT_MESSAGE" value="added backtracking and list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
