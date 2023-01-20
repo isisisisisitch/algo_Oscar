@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97aecc44-ea06-43f3-a915-ddec928f62bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_08_dp/Knapsack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_08_dp/LCS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_08_dp/LongestCommonSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_palindrome/LongestPalindromicSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_08_dp/CoinChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_08_dp/CoinChange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_08_dp/MaxSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algo_Oscar/ca/bytetube/_08_dp/MaxSubArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_08_dp/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_08_dp/CoinChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_08_dp/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_08_dp/MaxSubArray.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestCommonSubstring">
+  <component name="RunManager" selected="Application.LongestPalindromicSubstring">
     <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._08_dp.CoinChange" />
       <module name="algo_Oscar" />
@@ -113,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._10_list.Main" />
+    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._12_palindrome.LongestPalindromicSubstring" />
       <module name="algo_Oscar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._10_list.singly.*" />
+          <option name="PATTERN" value="ca.bytetube._12_palindrome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestPalindromicSubstring" />
         <item itemvalue="Application.LongestCommonSubstring" />
         <item itemvalue="Application.Knapsack" />
         <item itemvalue="Application.LCS" />
         <item itemvalue="Application.CoinChange" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +182,8 @@
       <workItem from="1671757166207" duration="6166000" />
       <workItem from="1672959841474" duration="8749000" />
       <workItem from="1673556090265" duration="5056000" />
-      <workItem from="1673654469875" duration="7819000" />
+      <workItem from="1673654469875" duration="10078000" />
+      <workItem from="1674175407604" duration="6088000" />
     </task>
     <task id="LOCAL-00001" summary="add comparator and comparable">
       <created>1667529709665</created>
@@ -254,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671765591112</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added dp advance">
+      <created>1673669249989</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673669249989</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +284,8 @@
     <MESSAGE value="completed linkedList" />
     <MESSAGE value="added list ccc questions" />
     <MESSAGE value="added backtracking and list" />
-    <option name="LAST_COMMIT_MESSAGE" value="added backtracking and list" />
+    <MESSAGE value="added dp advance" />
+    <option name="LAST_COMMIT_MESSAGE" value="added dp advance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
