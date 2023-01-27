@@ -7,8 +7,37 @@ public class LongestPalindromicSubstring {
 
     }
 
-
     public String longestPalindrome(String s) {
+        char[] cs = s.toCharArray();
+        if (cs.length <= 1) return s;
+        int begin = 0;
+        int maxLen = 1;
+        int i = 0;
+        while (i < cs.length) {
+            int l = i - 1;
+            int r = i;
+            while (++r < cs.length && cs[i] == cs[r]);
+
+            i = r;
+
+            while (l >= 0 && r < cs.length && cs[l] == cs[r]) {
+                l--;
+                r++;
+            }
+            //cs[l + 1, r )
+            int len = r - ++l;
+            if (len > maxLen) {
+                maxLen = len;
+                begin = l;
+            }
+
+        }
+
+        return new String(cs, begin, maxLen);
+    }
+
+
+    public String longestPalindrome2(String s) {
         char[] cs = s.toCharArray();
         if (cs.length <= 1) return s;
         int begin = 0;
