@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97aecc44-ea06-43f3-a915-ddec928f62bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_CCC/_00_array/PartSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_13_stack/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_13_stack/ValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_13_stack/list/AbstractList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_13_stack/list/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_13_stack/list/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_12_palindrome/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_palindrome/LongestPalindromicSubstring.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,15 +33,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ca/bytetube/_09_heap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ca/bytetube/_13_stack/list" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ca.bytetube._13_stack.list" />
       <recent name="ca.bytetube._10_list" />
       <recent name="ca.bytetube._08_dp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/bytetube/_13_stack/list" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_09_heap" />
     </key>
   </component>
@@ -54,33 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PartSort">
-    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._08_dp.Knapsack" />
-      <module name="algo_Oscar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._08_dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LCS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._08_dp.LCS" />
-      <module name="algo_Oscar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._08_dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ValidParentheses">
     <configuration name="LongestCommonSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._08_dp.LongestCommonSubstring" />
       <module name="algo_Oscar" />
@@ -120,13 +99,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._13_stack.Stack" />
+      <module name="algo_Oscar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._13_stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._13_stack.ValidParentheses" />
+      <module name="algo_Oscar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._13_stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidParentheses" />
+        <item itemvalue="Application.Stack" />
         <item itemvalue="Application.PartSort" />
         <item itemvalue="Application.LongestPalindromicSubstring" />
         <item itemvalue="Application.LongestCommonSubstring" />
-        <item itemvalue="Application.Knapsack" />
-        <item itemvalue="Application.LCS" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +178,10 @@
       <workItem from="1673654469875" duration="10078000" />
       <workItem from="1674175407604" duration="6264000" />
       <workItem from="1674268853161" duration="2891000" />
-      <workItem from="1674777435761" duration="6229000" />
+      <workItem from="1674777435761" duration="6340000" />
+      <workItem from="1674863953714" duration="5415000" />
+      <workItem from="1675201029940" duration="1032000" />
+      <workItem from="1675379696511" duration="3413000" />
     </task>
     <task id="LOCAL-00001" summary="add comparator and comparable">
       <created>1667529709665</created>
@@ -252,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674184429371</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added partSort">
+      <created>1674785225448</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1674785225448</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +298,8 @@
     <MESSAGE value="added backtracking and list" />
     <MESSAGE value="added dp advance" />
     <MESSAGE value="added palindrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="added palindrome" />
+    <MESSAGE value="added partSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="added partSort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
